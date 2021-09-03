@@ -838,7 +838,14 @@ img {
     font-size: 18px;
     text-transform: uppercase;
     padding: 18px 50px;
+    transition: all .3s ease;
 }
+
+.about-content-area .about-link a:hover{
+    background-color: #195a62;
+}
+
+
 
 /* ******************************
 :: 10.0 FACILITIES AREA CSS
@@ -849,6 +856,24 @@ img {
 
 .fac-box{
     position: relative;
+    overflow: hidden;
+}
+
+.fac-box img{
+    position: relative;
+     display: block;
+     width: 100%;
+     -webkit-transition:all 0.7s ease;
+     -moz-transition:all 0.7s ease;
+     -ms-transition:all 0.7s ease;
+     -o-transition:all 0.7s ease;
+     transition:all 0.7s ease;
+}
+
+.fac-box img:hover{
+    -ms-transform: scale(1.05);
+     transform: scale(1.05);
+     opacity: 0.70;
 }
 
 .fac-text{
@@ -881,10 +906,13 @@ img {
     padding: 14px 26px;
     text-transform: uppercase;
     letter-spacing: 2px ;
+    transition: all .3s ease;
 }
 
-.fac-box img{
-    width: 100%;
+.fac-link a:hover{
+    color: #195a62;
+    background-color: #fff;
+    border: 1px solid #195a62;
 }
 
 /* ******************************
@@ -1236,7 +1264,7 @@ img {
 .footer-area .footer-items a:focus,
 .footer-area .copyright-area a:hover,
 .footer-area .copyright-area a:focus {
-    color: #fff !important;
+    color: #9b1b44 !important;
 }
 
 .footer-area .mail-social-icons{
@@ -1251,7 +1279,7 @@ img {
 }
 
 .footer-area .mail-social-icons a:hover{
-    color: #fff !important;
+    color: #9b1b44 !important;
 }
 
 .footer-area .mail-social-icons ul{
@@ -1298,7 +1326,7 @@ img {
 
 .form-btn:hover{
     color: #fff;
-    background-color: #144d5b;
+    background-color: #74c0c9;
 }
 
 .form-btn a{
