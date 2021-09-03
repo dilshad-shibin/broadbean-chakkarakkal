@@ -1018,6 +1018,7 @@ img {
     background-image: url(../img/testimonials/testi-bg.jpg);
     background-position: center;
     background-size: cover;
+    padding-top: 70px;
 }
 
 .single-testi{
@@ -1028,14 +1029,17 @@ img {
 }
 
 .testi-quote{
-    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 20px;
 }
 
 .testi-text p{
     font-size: 21px;
     line-height: 35px;
     font-style: italic;
-    color: #0b0b0c;
+    color: #fff;
 }
 
 .testi-name{
@@ -1044,7 +1048,7 @@ img {
 
 .testi-name h2{
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 4px;
@@ -1063,17 +1067,16 @@ img {
 }
 
 .testi-head{
-    position: absolute;
-    top: 0;
-    right: 8%;
+    margin-bottom: 80px;
 }
 
 .testi-head h1{
-    color: #195a62;
-    line-height: 1;
-    font-size: 75px;
+    font-size: 42px;
+    color: #fff;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* New testi css */
@@ -1084,67 +1087,145 @@ img {
 }
 
 .single-box{
-    background: #e7f2f4;
-    max-width: 750px;
+    background: #001b2485;
     position: relative;
-    padding: 50px 160px 80px 80px;
+    padding: 115px 160px 100px 80px;
+    display: flex;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .client-pic{
-    position: absolute;
-    right: -260px;
-    transform: translate(-50%,-50%);
-    top: 58%;
+    position: relative;
 }
 
-/* .owl-nav{
-    position: absolute;
-    right: 210px;
-    bottom: 20px;
-}
-
-.owl-nav button{
-    width: 45px;
-    height: 45px;
-    border: 1px solid #c9d6d8 !important;
+.client-pic img{
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    margin-right: 10px;
 }
 
-.testi-box-slider .owl-nav [class*=owl-]:hover{
-    background-color: #195a62;
+.testi-details{
+    flex: 0 0 30%;
+    text-align: center;
 }
 
-.owl-nav button:last-child{
-    margin-right: 0;
+.testi-text{
+    flex: 0 0 70%;
+    padding-left: 100px;
 }
 
-.owl-nav button span{
-    font-size: 35px;
-    color: #c9d6d8;
-} */
+.testi-box-slider .owl-dots{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.owl-dots button {
+    background: #d2d5da8f !important;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 8px;
+    outline: none;
+}
+
+.owl-dots button.active{
+    background-color: #fff !important;
+}
 
 /* ******************************
 :: 13.0 Book AREA CSS
 ****************************** */
+.book-area{
+    position: relative;
+    padding-bottom: 100px;
+    background-image: url(../img/book/book-ng.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.book-box{
+    max-width: 700px;
+    padding: 80px 50px 50px 80px;
+}
+
+.book-box .header{
+    margin-bottom: 60px;
+}
+
+.book-box .header h3{
+    color: #676767;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.call-btn{
+    display: flex;
+    align-items: center;
+}
+
+.call-btn .call{
+    margin-right: 50px;
+}
+
+.call-btn .call span{
+    color: #9b1b44;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.call-btn .call a{
+    color: #9b1b44;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.call-btn .call a:hover{
+    color: #001b24;
+    text-decoration: underline;
+}
+
+.call-btn .bk-nw a{
+    font-size: 22px;
+    text-transform: uppercase;
+    background: #9b1b44;
+    color: #fff;
+    padding: 20px 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+.call-btn .bk-nw a:hover{
+    color: #ffffff;
+    background-color: #195a62;
+}
 
 
 /* ******************************
 :: 14.0 FOOTER AREA CSS
 ****************************** */
 .footer-area {
-    background-color: #293437;
+    background-color: #f0f0f0;
 }
 
 .copyright-area {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid #6767679e;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-area  .footer-items{
+    margin-top: 25px;
 }
 
 .footer-area  .footer-items ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .footer-area  .footer-items ul li a{
@@ -1160,7 +1241,7 @@ img {
 
 .footer-area .mail-social-icons{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 32px;
 }
 
@@ -1179,12 +1260,6 @@ img {
 
 .footer-area .mail-social-icons ul li a{
     font-size: 30px;
-}
-
-.footer-menu-area{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .copyright-area a img{

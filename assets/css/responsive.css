@@ -635,8 +635,9 @@
 }
 
 @media (max-width: 575px) {
-    .footer-items {
+    .footer-area .footer-items {
         margin-bottom: 30px;
+        margin-top: 0;
     }
 
     .footer-area .col-12:last-of-type .footer-items {
@@ -704,10 +705,10 @@
     .welcome-intro h1{
         padding-left: 0;
     }
-    .room-list{
+    /* .room-list{
         margin-left: 80px;
         margin-right: 100px;
-    }
+    } */
     .room-link{
         right: 30px;
     }
@@ -735,6 +736,10 @@
     .property-box{
         padding-left: 0;
         padding-right: 30px;
+    }
+    .fac-about p{
+        font-size: 22px;
+        margin-bottom: 40px;
     }
 }
 
@@ -832,6 +837,45 @@
         background-color: transparent;
         opacity: inherit;
     }
+    .fac-about{
+        padding: 10px 10px 0 0;
+    }
+    .fac-about p{
+        font-size: 18px;
+        margin-bottom: 39px;
+        line-height: 24px;
+    }
+    .tab-content{
+        left: 0;
+    }
+    .rooms-area-demo .main-box{
+        margin-top: 60px;
+    }
+    .owl-nav{
+        position: absolute;
+        bottom: -65px;
+        left: 0;
+    }
+    .rooms-area-demo{
+        padding-bottom: 150px;
+    }
+    .testi-head{
+        margin-bottom: 45px;
+    }
+    .single-box{
+        flex-direction: column;
+        padding: 100px;
+        text-align: center;
+        max-width: inherit;
+    }
+    .testi-details{
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+    .testi-text{
+        flex: 100%;
+        padding-left: 0;
+    }
 }
 
 
@@ -854,20 +898,10 @@
     }
     .single-box{
         max-width: none;
-        padding: 35px;
+        padding: 70px;
     }
     .testi-text p{
         font-size: 18px;
-    }
-    .client-pic{
-        bottom: -127px;
-        height: 150px;
-        width: 150px;
-        right: -18px;
-        top: inherit;
-    }
-    .single-client-testi{
-        height: 620px;
     }
     .book-box{
         padding: 50px;
@@ -916,6 +950,34 @@
     }
     .adr-box{
         border-right: none;
+    }
+    .order-fac-2{
+        order: 2;
+    }
+    .order-fac-1{
+        order: 1;
+    }
+    .facilities-area{
+        padding: 80px 0;
+    }
+    .fac-box{
+        margin-bottom: 30px;
+    }
+    .fac-about{
+        padding: 30px 0 50px;
+    }
+    .fac-about p{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .rooms-area-demo .main-box h2{
+        font-size: 60px;
+    }
+    .testi-head h1{
+        font-size: 30px;
+    }
+    .book-area{
+        padding-bottom: 0;
     }
 }
 
@@ -992,37 +1054,22 @@
         right: 0;
         width: 100%;
         transform: translate(-50%,-50%);
-        left: 50%;
+        left: 95px;
         text-align: center;
     }
     .room-link a{
         font-size: 18px;
         padding: 15px 30px;
     }
-    .rooms-area-demo .room-box{
-        margin-top: -150px;
-    }
-    .main-box-img1,
-    .main-box-img2,
-    .main-box-img3,
-    .main-box-img4{
-        height: 250px;
-    }
     .testi-area{
         padding: 80px 0 !important;
-    }
-    .client-pic{
-        display: none;
-    }
-    .single-client-testi{
-        height: 700px;
     }
     .owl-nav{
         right: 0;
         text-align: center;
         transform: translate(-50%,-50%);
         left: 50%;
-        bottom: 0;
+        bottom: -100px;
     }
     .book-box{
         padding: 35px;
@@ -1137,6 +1184,24 @@
     }
     .about-area{
         padding: 80px 0 100px;
+    }
+    .fac-box{
+        padding: 0 15px;
+    }
+    .fac-about{
+        padding: 30px 15px 50px;
+    }
+    .rooms-area-demo .main-box h2{
+        font-size: 45px;
+    }
+    .single-box{
+        padding: 30px;
+    }
+    .testi-quote{
+        right: 30px;
+    }
+    .book-area{
+        padding: 30px 0;
     }
 }
 
