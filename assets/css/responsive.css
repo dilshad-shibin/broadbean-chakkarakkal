@@ -618,7 +618,7 @@
 
 @media (max-width: 575px) {
     .breadcrumb-area {
-        height: 300px;
+        height: 350px;
     }
 
     .breadcrumb-content > h3 {
@@ -794,7 +794,10 @@
         font-size: 18px;
     }
     .welcome-head h1, .whychoose-head h1{
-        font-size: 3em  ;
+        font-size: 3em ;
+    }
+    .welcome-head h1{
+        font-size: 60px;
     }
     .about-para{
         margin-bottom: 60px;
@@ -846,7 +849,7 @@
         margin-bottom: 39px;
         line-height: 24px;
     }
-    .tab-content{
+    .rooms-area-demo .tab-content{
         left: 0;
     }
     .rooms-area-demo .main-box{
@@ -876,6 +879,21 @@
     .testi-text{
         flex: 100%;
         padding-left: 0;
+    }
+    .abt-image{
+        margin-bottom: 25px;
+    }
+    .abt-text p{
+        font-size: 16px;
+    }
+    .fac-box-area{
+        padding: 16px;
+    }
+    .kk-logo{
+        padding-left: 0;
+    }
+    .kk-logo img{
+        max-width: 150px;
     }
 }
 
@@ -1093,7 +1111,7 @@
         margin-bottom: 30px;
     }
     .bread-box{
-        height: 300px;
+        height: 350px;
         justify-content: center;
         margin-top: 30px;
     }
@@ -1101,14 +1119,15 @@
         text-align: center;
     }
     .bread-head h1{
-        font-size: 3.5em;
+        font-size: 2.8em;
     }
     .bread-head span, .bread-head span a{
         font-size: 15px;
     }
     .welcome-head h1{
         margin-bottom: 30px;
-        font-size: 28px;
+        font-size: 35px;
+        line-height: 40px;
     }
     .countbox-inner{
         margin: 0;
@@ -1212,6 +1231,13 @@
     }
     .welcome-intro h1{
         margin-bottom: 5px;
+    }
+    .fac-box-area{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .kk-part{
+        padding-bottom: 80px;
     }
 }
 
