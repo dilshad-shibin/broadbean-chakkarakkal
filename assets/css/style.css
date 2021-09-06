@@ -607,8 +607,9 @@ img {
 }
 
 .navbar-inner nav{
-    background: #000000;
-    opacity: 57%;
+    /* background: #000000;
+    opacity: 57%; */
+    background-color: rgb(0 0 0 / 57%);
     padding: 0 10px;
 }
 
@@ -628,7 +629,7 @@ img {
     /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 790px;
+    height: 80vh;
 }
 
 .welcome-intro{
@@ -1303,6 +1304,10 @@ img {
     margin-bottom: 40px;
 }
 
+.form-area2{
+    margin-bottom: 0;
+}
+
 .form-box{
     display: flex;
     align-items: center;
@@ -1407,7 +1412,157 @@ img {
 /* ******************************
 :: 17.0 ABOUT PAGE 
 ****************************** */
+.breadcrumb-area{
+    background-image: url(../img/about/about-chakkarakallu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+}
 
+.bread-box{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.bread-head h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.bread-head span,
+.bread-head span a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.bread-head span a:hover{
+    color: #ffde00;
+}
+
+.welcome-head{
+    margin-bottom: 50px;
+}
+
+.welcome-head h1{
+    color: #9b1b44;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+
+.welcome-head p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.abt-text p{
+    color: #0b0b0c;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.abt-text p:first-child{
+    margin-bottom: 30px;
+}
+
+.about-welcome{
+    padding-bottom: 100px;
+}
+
+.mision-vision{
+    background-image: url(../img/about/mission.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.msn-head{
+    margin-bottom: 50px;
+}
+
+.msn-head h3,
+.vsn-head h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.msn-head p,
+.vsn-head p{
+    color: #ffffffd1;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.fac-box-area{
+    position: relative;
+    overflow: hidden;
+    padding: 70px;
+    text-align: center;
+}
+
+.fac-box-area img {
+    position: relative;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.fac-box-area img:hover {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0.70;
+}
+
+.fac-box-area .fac-img{
+    margin-bottom: 30px;
+}
+
+.fac-content h3{
+    color: #686868;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.fac-content p{
+    color: #252525e6;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.kk-part{
+    padding: 0 0 120px;
+    position: relative;
+}
+
+.kk-logo{
+    padding-left: 70px;
+}
+
+.kk-content h2{
+    color: #195a62;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.kk-content p{
+    color: #252525;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
 
 /* ******************************
 :: 18.0  DESTINATIONS PAGE 
