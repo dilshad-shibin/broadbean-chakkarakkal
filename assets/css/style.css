@@ -2010,7 +2010,51 @@ img {
 /* ******************************
 :: 21.0  RESERVATION PAGE 
 ****************************** */
+.reserv-image{
+    background-image: url(../img/reserv.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border-radius: 6px;
+}
 
+.reserv-head{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserv-head h1{
+    color: #fff;
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.reserv-apply-area{
+    padding: 50px 50px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 30px #97a1b224;
+    border-radius: 8px;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.reserv-apply-area input{
+    border: 0;
+    border-bottom: 1px solid #D9DDE4;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+    height: 52px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    color: #97A1B2;
+}
 
 /* ******************************
 :: 22.0  POPUP AREA 

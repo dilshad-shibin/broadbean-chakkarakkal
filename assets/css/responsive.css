@@ -1020,6 +1020,14 @@
     .dest-img img{
         width: 100%;
     }
+    .reserv-image,
+    .reserv-head{
+        height: auto;
+    }
+    .reserv-head h1{
+        font-size: 60px;
+        padding: 100px 0;
+    }
 }
 
 @media(min-width: 576px) and (max-width: 768px){
@@ -1189,7 +1197,7 @@
     }
     .reserv-apply-area{
         padding: 65px 30px;
-        box-shadow: 0px 8px 30px #6c757d;
+        box-shadow: 0px 8px 30px #6c757d69;
     }
     .dotted-pattern-6,
     .tri-pattern-5{
@@ -1282,6 +1290,10 @@
     }
     .room-content-inner .room-description{
         margin-top: 20px;
+    }
+    .reserv-head h1{
+        font-size: 45px;
+        padding: 50px 0;
     }
 }
 
