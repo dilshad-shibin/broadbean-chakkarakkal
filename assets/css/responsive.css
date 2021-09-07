@@ -895,6 +895,9 @@
     .kk-logo img{
         max-width: 150px;
     }
+    .dest-box{
+        margin-bottom: 35px;
+    }
 }
 
 
@@ -997,6 +1000,9 @@
     }
     .book-area{
         padding-bottom: 0;
+    }
+    .dest-img img{
+        width: 100%;
     }
 }
 
@@ -1238,6 +1244,22 @@
     }
     .kk-part{
         padding-bottom: 80px;
+    }
+    .desti-head span,
+    .desti-head h2{
+        font-size: 50px;
+    }
+    .destini-btn-box h2{
+        margin-bottom: 55px;
+    }
+    .extra-fac-head span{
+        font-size: 50px;
+    }
+    .extra-fac-head h2{
+        font-size: 42px;
+    }
+    .fac-box-inner{
+        padding: 60px 20px 35px;
     }
 }
 
