@@ -2082,11 +2082,16 @@ img {
 /* ******************************
 :: 26.0 GALLERY PAGE CSS
 ****************************** */
+.breadcrumb-area-gallery{
+    background-image: url(../img/gallery/gallery-banner.jpg);
+}
 
 .gallery-img{
     position: relative;
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
+    display: flex;
+    height: 100%;
 }
 
 .gallery-overlay{
@@ -2132,4 +2137,9 @@ img {
 .gallery-img:hover .gallery-overlay{
     visibility: visible;
     opacity: 1;
+}
+
+.gallery-box{
+    display: flex;
+    padding: 0;
 }
