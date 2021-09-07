@@ -1810,7 +1810,93 @@ img {
 /* ******************************
 :: 19.0  FACILITIES PAGE 
 ****************************** */
+.breadcrumb-area-facility{
+    background-image: url(../img/facilities/fac-banner.jpg);
+}
 
+.fac-area-main{
+    background-color: #edebe5;
+}
+
+.fac-main-head{
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.fac-main-head h2{
+    font-size: 55px;
+    font-weight: 600;
+    color: #9b1b44;
+    margin-bottom: 10px;
+}
+
+.fac-main-head p{
+    font-size: 16px;
+}
+
+.room-inner{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.room-post{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+
+.room-post img{
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.room-content{
+    width: 50%;
+}
+
+.room-content-inner{
+    padding: 70px;
+}
+
+.room-content-inner .title h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.room-content-inner .room-description{
+    margin-top: 35px;
+}
+
+.room-content-inner .room-description p{
+    font-size: 15px;
+}
+
+.room-content-inner .room-booking{
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #d7d7d7;
+}
+
+.room-content-inner .room-booking a{
+    background-color: #9b1b44;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+
+.room-content-inner .room-booking a:hover{
+    background-color: #144d5b;
+}
 
 /* ******************************
 :: 20.0  CONTACT PAGE 

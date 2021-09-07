@@ -898,6 +898,22 @@
     .dest-box{
         margin-bottom: 35px;
     }
+    .room-inner{
+        flex-direction: column;
+    }
+    .room-post,
+    .room-content{
+        width: 100%;
+    }
+    .room-content.order2-991{
+        order: 2;
+    }
+    .room-post.order1-991{
+        order: 1;
+    }
+    .room-content-inner{
+        padding: 50px 50px 70px;
+    }
 }
 
 
@@ -1260,6 +1276,12 @@
     }
     .fac-box-inner{
         padding: 60px 20px 35px;
+    }
+    .room-content-inner{
+        padding: 40px 30px 70px;
+    }
+    .room-content-inner .room-description{
+        margin-top: 20px;
     }
 }
 
