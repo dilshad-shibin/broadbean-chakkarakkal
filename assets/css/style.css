@@ -1901,6 +1901,110 @@ img {
 /* ******************************
 :: 20.0  CONTACT PAGE 
 ****************************** */
+.breadcrumb-area-contact{
+    background-image: url(../img/contact/banner.jpg);
+}
+
+.adr-box{
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.adr-box.border-right-none{
+    border-right: none;
+}
+
+.adr-box .logo{
+    background: #86193c;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.adr-box .logo svg{
+    color: #fff;
+    font-size: 20px;
+}
+
+.adr-box h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #9b1b44;
+}
+
+.adr-box p{
+    font-size: 16px;
+    color: #144d5b;
+}
+
+.adr-box p a:hover{
+    color: #144d5b;
+    text-decoration: underline;
+}
+
+.write-area{
+    padding-top: 10px;
+}
+
+.write-area-head h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.contact-box .form-control{
+    font-size: 14px;
+    height: 50px;
+    padding: 0 15px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.contact-box .form-group textarea {
+    height: 200px;
+    padding: 15px;
+}
+
+.btn-submit{
+    text-align: center;
+    text-align: center;
+    background: #9b1b44;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .3s;
+}
+
+.btn-submit:hover{
+    background-color: #144d5b;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.map-area{
+    padding-top: 0;
+}
+
+.map-area .map{
+    height: 450px;
+    filter: grayscale(1);
+    width: 100%;
+}
+
+.map-area .map iframe{
+    width: 100%;
+}
 
 
 /* ******************************
