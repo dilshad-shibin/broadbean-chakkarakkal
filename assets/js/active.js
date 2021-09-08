@@ -144,6 +144,32 @@
         }
     });
 
+    $('.client-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        dots: true,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 3,
+                dots: true
+            }
+        }
+    });
+
     // :: 14.0 FANCYBOX IMAGE GALLERY
     $('[data-fancybox="images"]').fancybox({
         afterLoad: function (instance, current) {
