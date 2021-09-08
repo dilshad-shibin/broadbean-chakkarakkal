@@ -170,6 +170,30 @@
         }
     });
 
+    $('.news-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
+    });
+
     // :: 14.0 FANCYBOX IMAGE GALLERY
     $('[data-fancybox="images"]').fancybox({
         afterLoad: function (instance, current) {
