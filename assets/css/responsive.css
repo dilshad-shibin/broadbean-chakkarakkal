@@ -762,6 +762,9 @@
     .form-btn{
         margin-bottom: 10px
     }
+    .form-btn a{
+        height: 50px;
+    }
     .bg-about-area{
         width: 100%;
     }
@@ -1066,7 +1069,7 @@
     }
     .form-btn a{
         font-size: 18px;
-        padding: 12px 0;
+        height: 55px;
     }
     .bg-about-area{
         height: 250px;
