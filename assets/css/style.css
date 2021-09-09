@@ -633,13 +633,14 @@ img {
     background-image: url(../img/banner/banner.jpg);
     /* background-position: center; */
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
 }
 
 .welcome-intro{
     position: relative;
-    top: 180px;
+    top: 150px;
 }
 
 .welcome-intro::before{
@@ -1399,12 +1400,14 @@ img {
 }
 
 .navbar-brand img{
-    height: 100px;
-    width: 100%
+    /* height: 100px; */
+    width: 100%;
+    max-width: 100px
 }
 .navbar-sticky-on .navbar-brand-sticky{
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
+    max-width: 100px;
 }
 
 .navbar-brand-footer img{
