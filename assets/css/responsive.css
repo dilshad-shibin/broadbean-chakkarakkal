@@ -920,6 +920,17 @@
     .news-area{
         padding-bottom: 100px;
     }
+    .mega-menu.blog-menu{
+        transform: translateX(0);
+    }
+    .single-menu{
+        margin-top: 10px;
+    }
+    .single-menu li a{
+        background-color: #ddd;
+        margin-bottom: 5px;
+        color: #111;
+    }
 }
 
 
@@ -1312,6 +1323,12 @@
     }
     .lower-box h3{
         font-size: 25px;
+    }
+    .hotels-head h1{
+        font-size: 55px;
+    }
+    .hotels-head p{
+        padding: 0;
     }
 }
 

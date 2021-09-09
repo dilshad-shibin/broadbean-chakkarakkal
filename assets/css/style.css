@@ -26,6 +26,7 @@
 :: 24.0 NEWS PAGE 
 :: 25.0 SINGLE NEWS PAGE
 :: 26.0 GALLERY PAGE CS
+:: 27.0 ABOUT HOTELS PAGE
 ****************************** */
 
 /* ******************************
@@ -623,6 +624,85 @@ img {
     background-color: transparent;
     opacity: inherit;
     padding: 0;
+}
+
+.mega-menu.blog-menu{
+    width: 270px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    background: rgba(0,0,0,.9);
+    opacity: 1;
+}
+
+.mega-menu.blog-menu::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: 24px;
+    top: -10px;
+    opacity: 1;
+    border-bottom-color: rgba(0,0,0,.9);
+}
+
+@media(min-width: 992px){
+    .dropdown:hover .mega-menu {
+        display: block;
+        -webkit-animation: dropdownAnimation 0.3s ease-in-out;
+        animation: dropdownAnimation 0.3s ease-in-out;
+    }
+}
+
+@-webkit-keyframes dropdownAnimation {
+    0% {
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(20px);
+        transform: translateX(-50%) translateY(20px);
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+
+        visibility: visible;
+        opacity: 1;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(0);
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+@keyframes dropdownAnimation {
+    0% {
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(20px);
+        transform: translateX(-50%) translateY(20px);
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+
+        visibility: visible;
+        opacity: 1;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(0);
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.single-menu li a{
+    transition: all .3s ease;
+}
+
+.single-menu li:hover a{
+    color: #fff;
+    background-color: #9b1b44;
 }
 
 
@@ -2804,4 +2884,209 @@ side-news .post .info {
 .gallery-box{
     display: flex;
     padding: 0;
+}
+
+/* ******************************
+:: 27.0 ABOUT HOTELS PAGE
+****************************** */
+.breadcrumb-area-hotels{
+    background-image: url(../img/about/about-chakkarakallu.jpg);
+}
+
+.hotels-head{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.hotels-head h1{
+    font-size: 65px;
+    color: #9b1b44;
+    margin-bottom: 12px;
+}
+
+.hotels-head p{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 50px;
+}
+
+.hotel-block{
+    margin-bottom: 35px;
+}
+
+.hotel-block .inner-box{
+    position: relative;
+    display: block;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    overflow: hidden;
+}
+
+.hotel-block .image-box{
+    position: relative;
+    display: block;
+    background: #171b27;
+    height: 370px;
+}
+
+.hotel-block .image-layer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.80;
+    transition: all 500ms ease;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hotel-block .image-layer1{
+    background-image: url(../img/about/hotels/kannur.jpg);
+}
+
+.hotel-block .image-layer2{
+    background-image: url(../img/about/hotels/chakkarakkal.jpg);
+}
+
+.hotel-block .image-layer3{
+    background-image: url(../img/about/hotels/payyanur.jpg);
+}
+
+.hotel-block .image-layer4{
+    background-image: url(../img/about/hotels/iritty.jpg);
+}
+
+.hotel-block .image-layer5{
+    background-image: url(../img/about/hotels/peravoor.jpg);
+}
+
+.hotel-block .image-layer6{
+    background-image: url(../img/about/hotels/kannur2.jpg);
+}
+
+.cap-box{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    max-width: 350px;
+    opacity: 1;
+    transition: all 500ms ease 200ms;
+}
+
+.cap-inner{
+    position: relative;
+    display: block;
+    padding: 18px 20px 18px 40px;
+    background: #ffffff;
+}
+
+.cap-inner::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -15px;
+    border: 8px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    border-right: 8px solid #ffffff;
+}
+
+.cap-inner span{
+    position: relative;
+    display: block;
+    line-height: 24px;
+    color: #1b1c1e;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.cap-inner h5{
+    position: relative;
+    display: block;
+    margin: 0;
+    color: #144d5b;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hover-box{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    max-width: 450px;
+    opacity: 0;
+    -webkit-transform: translateY(-102%);
+    -ms-transform: translateY(-102%);
+    transform: translateY(-102%);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.hover-box .hover-inner{
+    position: relative;
+    display: block;
+    padding: 35px 40px 40px 40px;
+    background: #ffffff;
+    height: 100%;
+}
+
+.hover-inner h4{
+    margin-bottom: 15px;
+    font-size: 22px
+}
+
+.hover-box .text{
+    position: relative;
+    display: block;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 0 40px;
+}
+
+.hover-box .link-box{
+    position: relative;
+    display: block;
+}
+
+.hover-box .link-box a{
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 15px 40px;
+    background: #9b1b44;
+    border-radius: 0px;
+    outline: 1px solid transparent;
+    z-index: 1;
+    border: 1px solid #9b1b44;
+}
+
+.hover-box .link-box a:hover{
+    background-color: #fff;
+    color: #9b1b44;
+    border: 1px solid #9b1b44;
+}
+
+.hotel-block:hover .hover-box{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    transition: all 500ms ease 200ms;
 }
