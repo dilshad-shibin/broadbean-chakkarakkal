@@ -1402,12 +1402,12 @@ img {
 .navbar-brand img{
     /* height: 100px; */
     width: 100%;
-    max-width: 100px
+    max-width: 120px
 }
 .navbar-sticky-on .navbar-brand-sticky{
     /* height: 100px; */
     width: 100%;
-    max-width: 100px;
+    max-width: 120px;
 }
 
 .navbar-brand-footer img{
